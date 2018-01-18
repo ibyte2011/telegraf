@@ -206,7 +206,12 @@ func gatherInfoOutput(
 				continue
 			}
 		}
-
+		
+		//add 20180118 by ljp
+		if name == "maser_replid2" {
+			continue
+		}
+		
 		if name == "mem_allocator" {
 			continue
 		}
