@@ -208,7 +208,7 @@ func gatherInfoOutput(
 		}
 		
 		//add 20180118 by ljp
-		if name == "maser_replid2" {
+		if name == "master_replid2" {
 			continue
 		}
 		
